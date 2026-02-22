@@ -1,5 +1,5 @@
 <script> 
-        $(function).ready(function(){
+        $(function(){
             $("button").click(function(){
                 alert("value" + $("#sometext").val());
             })
